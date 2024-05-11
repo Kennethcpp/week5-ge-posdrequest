@@ -1,0 +1,21 @@
+Question 1: Explain the steps involved in setting up a Node.js server from scratch. 
+•	Include details about installing Node.js, initializing a new project, and installing necessary packages. 
+•	What is the purpose of using a package like express in setting up a server?
+
+Answer:
+Step 1: first we create a folder for our project
+Step 2:  start the terminal by typing the following command, .npm --yes
+Step 3: install express by typing the following command npm install express.
+This will create a node-modules file, a package-lock.json and package.json files.
+Step 4: add start and dev function at the package.json script
+This enables the start script and dev is use to restart the terminal each time a new changes are made.
+Step 5: we add a dotenv dependency with the following command npm install dotenv. This helps us to manage secret files.
+
+What is the purpose of using a package like express in setting up a server?
+Express is used to run the server, it is a node.js framework
+Question 2:
+• what is nodemon and how does it aid in the development process? 
+• Explain its significance in a Node.js project. 
+Answer: 
+Nodemon is a tool that helps to manage node.js applications, it helps to automatically restart the server when changes are made.
+
